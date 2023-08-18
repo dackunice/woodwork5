@@ -1,0 +1,92 @@
+.user-history-item {
+    width: 920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.user-history-item-info {
+    width: 920px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.user-history-item-review {
+    width: 920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.user-history-item-review-content {
+    width: 920px;
+    min-height: 100px;
+    margin: 10px 0px;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+}
+
+.user-history-item-review-button {
+    width: 920px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.user-history-item-review-button-review {
+    width: 920px;
+    height: 30px;
+    background-color: lightgrey;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+
+
+.user-history-item-index {
+    width: 100px;
+    height: 30px;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.user-history-item-title {
+    width: 440px;
+    height: 30px;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.user-history-item-date {
+    width: 200px;
+    height: 30px;
+    font-size: 1.4rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.user-history-item-button {
+    width: 180px;
+    height: 30px;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+}

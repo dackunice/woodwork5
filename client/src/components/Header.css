@@ -1,0 +1,46 @@
+.header {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0%;
+  z-index: 100;
+  padding: 0px 75px;
+  background-color: black;
+}
+
+.header-left,
+.header-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  width: 25px;
+  height: 25px;
+  color: white;
+  margin: 0px 20px;
+}
+
+.header-products {
+  margin: 0px 100px;
+  color: white;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.header-admin,
+.header-login,
+.header-logout,
+.header-user,
+.header-cart {
+  width: 25px;
+  height: 25px;
+  margin: 0px 20px;
+  color: white;
+}

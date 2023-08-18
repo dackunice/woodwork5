@@ -1,0 +1,191 @@
+.upload {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .product-delete-subtitle {
+    width: 920px;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .product-upload-subtitle {
+    width: 920px;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+  }
+
+  .product-delete-container {
+    width: 920px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  
+  .product-upload-container {
+    width: 960px;
+    margin-top: 10px;
+    display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: flex-start;
+      flex-wrap: wrap;
+  }
+
+
+  
+  .product-upload-box {
+    width: 200px;
+      height: 200px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 0px 20px;
+      margin-top: 30px;
+      position: relative;
+  }
+  
+  .product-upload-image {
+    width: 100%;
+      height: 100%;
+  }
+  
+  .product-upload-cancel-icon {
+    position: absolute;
+      color: white;
+      width: 20px;
+      height: 20px;
+      top: 5%;
+      right: 5%;
+      background-color: white;
+      color: black;
+      border-radius: 50%;
+  }
+  
+  .product-upload-image-file {
+    display: none;
+  }
+  
+  .product-upload-file-icon {
+    width: 30px;
+      height: 30px;
+  }
+  
+  .product-upload-plus-box {
+    width: 200px;
+      height: 200px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin: 0px 20px;
+      margin-top: 30px;
+  }
+  
+  .product-upload-plus-icon {
+    width: 30px;
+      height: 30px;
+      color: gray;
+  
+  }
+  
+
+  .detail-upload-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  
+  .detail-upload-infomation {
+    display: block;
+    width: 920px;
+    padding: 10px;
+    margin: 0px 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+  }
+  
+  .detail-upload-description {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    display: block;
+    width: 920px;
+    height: 200px;
+    padding: 10px;
+    margin: 0px 20px;
+    margin-top: 20px;
+    border: 1px solid black;
+  }
+  
+  .product-submit-container {
+    width: 920px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .product-submit { 
+    font-size: 1.2rem;
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+  }
+
+  
+.product-delete-input {
+  width: 680px;
+  height: 30px;
+  margin-right: 20px;
+  border: 1px solid black;
+  padding: 0px 10px;
+  font-size: 1.2rem;
+}
+
+.product-delete-delete {
+  width: 200px;
+  height: 30px;
+  margin-left: 20px;
+  font-size: 1.2rem;
+  background-color: black;
+  color: white;
+}
+
+.upload-icon {
+  width: 30px;
+  height: 30px;
+  color: black;
+}
+
+.delete-icon {
+  width: 20px;
+  height: 20px;
+}

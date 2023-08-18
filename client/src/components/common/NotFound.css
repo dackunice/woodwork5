@@ -1,0 +1,16 @@
+.not-found {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 50px 0px;
+}
+
+.not-found-title {
+    font-size: 2rem;
+    letter-spacing: 5px;
+    margin-top: 50px;
+}
+

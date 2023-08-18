@@ -1,0 +1,52 @@
+.login {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+  
+.login-title {
+  font-size: 2rem;
+  letter-spacing: 5px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+  
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+  
+.login-email,
+.login-password {
+  font-size: 1.2rem;
+  width: 300px;
+  height: 30px;
+  padding: 10px 15px;
+  margin: 10px 0px;
+  border: 1.5px solid black;
+}
+  
+.login-button,
+.login-outside {
+  font-size: 1.2rem;
+  width: 300px; 
+  height: 30px;
+  margin: 10px 0px;
+  background-color: black;
+  color: white;
+}
+  
+.login-register {
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  display: block;
+  margin: 10px 0px; 
+}

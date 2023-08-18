@@ -1,0 +1,82 @@
+.admin-categories {
+    width: 920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-categories-create {
+    width: 920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-categories-delete {
+    width: 920px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.admin-categories-container {
+    width: 920px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+
+.admin-categories-title {
+    width: 920px;
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.admin-categories-create-input {
+    width: 680px;
+    height: 30px;
+    margin-right: 20px;
+    border: 1px solid black;
+    padding: 0px 10px;
+    font-size: 1.2rem;
+}
+
+.admin-categories-delete-input {
+    width: 680px;
+    height: 30px;
+    margin-right: 20px;
+    border: 1px solid black;
+    padding: 0px 10px;
+    font-size: 1.2rem;
+}
+
+.admin-categories-create-create {
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+}
+
+.admin-categories-delete-delete {
+    width: 200px;
+    height: 30px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+}
